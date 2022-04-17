@@ -36,6 +36,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         landmarkImages.append(UIImage(named: "stoneage")!)
         
         navigationItem.title = "Landmark Book"
+        print("Git test1")
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
